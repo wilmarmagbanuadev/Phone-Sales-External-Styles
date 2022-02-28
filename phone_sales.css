@@ -25,6 +25,10 @@
   }
  [custom-attr="cta-section"] .image-54 {
   transform: scale(1.4);
+   -moz-transform: scale(1.4);
+   -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -ms-transform: scale(1.4);
 }
   /*
   Responsive
