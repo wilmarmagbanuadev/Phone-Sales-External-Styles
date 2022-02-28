@@ -1,3 +1,6 @@
+.body {
+  overflow-x: hidden;
+}
 .w-slider-dot {
     background: #C4C4C4;
   }
