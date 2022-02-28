@@ -24,13 +24,13 @@
       background:url('https://uploads-ssl.webflow.com/61ad1d6d0fed6b7c0cb8800a/621b3358b1870feae8adaadc_273981429_7033305403410365_2800152161422770178_n.png');
       
   }
- [custom-attr="cta-section"] .image-54 {
+ /**[custom-attr="cta-section"] .image-54 {
   transform: scale(1.4);
    -moz-transform: scale(1.4);
    -webkit-transform: scale(1.4);
     -o-transform: scale(1.4);
     -ms-transform: scale(1.4);
-}
+}**/
   /*
   Responsive
   */
