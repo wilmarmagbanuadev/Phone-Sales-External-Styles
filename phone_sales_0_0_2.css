@@ -1,0 +1,100 @@
+.w-slider-dot {
+    background: #C4C4C4;
+  }
+  .w-slider-dot.w-active {
+    background: #FF4900;
+  }
+  
+  li.list-item-5::marker {
+    display: none !important;
+    opacity: 0;
+    font-size: 0;
+  }
+  li.list-item-5{
+      position:relative;
+  }
+  li.list-item-5:before{
+      content:'';
+      position:absolute;
+      left: -30px;
+      top: 5px;
+      width:24px;
+      height:24px;
+      background:url('https://uploads-ssl.webflow.com/61ad1d6d0fed6b7c0cb8800a/621b3358b1870feae8adaadc_273981429_7033305403410365_2800152161422770178_n.png');
+      
+  }
+
+  /*
+  Responsive
+  */
+  @media screen and (max-width: 1230px) {
+      [custom-section="section"]{
+          width:100%;
+          max-width:95%;
+      }
+  }
+  @media screen and (max-width: 991px) {
+      [custom-attr="logo-menu"] .w-nav-overlay{
+          overflow: visible;
+      }
+      [custom-attr="logo-menu"] .w--open{
+          background: #ff4900;
+      }
+      [custom-attr="logo-menu"] .w--open .icon-4{
+          color:#fff;
+      } 
+      [custom-attr="section1"],
+      [custom-attr="logo-menu"] .w-nav-link{
+        display: block;
+      }
+     [custom-attr="section1"] .w-col-6{
+      width: 100%;
+      }
+      [custom-attr="section2"] .columns-6::before {
+        display: block;
+      }
+     [custom-attr="section2"] .columns-6{
+        flex-flow: row wrap;
+        display: flex;
+      }
+      [custom-attr="section2"] .columns-6 .w-col.w-col-3 {
+        width: 50%;
+      }
+      [custom-attr="card"] .w-col-4 {
+        width: 100%;
+        margin: 10px 10px;
+      }
+      [custom-attr="offer-lists"] .w-col-4 {
+        width: 100%;
+        text-align: center;
+        margin: 30px 0;
+      }
+      [custom-attr="footer-sec"] .section-38 .w-col-3 {
+        width: 33%;
+        margin: 10px 0;
+      }
+  }
+  @media screen and (max-width: 767px) {
+      [custom-attr="card"] .icon_hover .column-13 {
+        width: 50px;
+      }
+      [custom-attr="footer-sec"] .section-38 .w-col-3 {
+          width: 50%;
+      }
+  }
+  @media screen and (max-width: 568px) {
+      [custom-attr="section2"] .columns-6 .w-col.w-col-3 {
+        width: 100%;
+        margin: 10px 0;
+        padding:10px 0;
+      }
+      [custom-attr="footer-sec"] .section-38 .w-col-3 {
+          width: 100%;
+      }
+  }
+  @media screen and (max-width: 479px) {
+      [custom-attr="logo-menu"] .w-nav-menu{
+          left:unset;
+      }
+  }
+  
